@@ -347,7 +347,7 @@ class BootstrapFormHelper extends FormHelper {
 	 * @access public
 	 * @return string
 	 */
-	public function radio($field, $options = array()) {
+	public function radio($field, $options = array(), $attributes = array()) {
 		if (is_array($field)) {
 			$options = $field;
 		} else {
